@@ -1,3 +1,9 @@
 import version1
-version1.saludar()
-version1.despedir()
+
+def main():
+    nombre = input("Ingrese su nombre: ")
+    version1.saludar(nombre)
+    version1.despedir(nombre)
+
+if __name__ == "__main__":
+    main()
