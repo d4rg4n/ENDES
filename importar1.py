@@ -1,3 +1,3 @@
-import functions
-functions.saludar()
-functions.despedir()
+import version1
+version1.saludar()
+version1.despedir()
