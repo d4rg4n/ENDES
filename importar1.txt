@@ -1,9 +1,0 @@
-import functions
-
-def main():
-    nombre = input("Ingrese su nombre: ")
-    functions.saludar(nombre)
-    functions.despedir(nombre)
-
-if __name__ == "__main__":
-    main()
